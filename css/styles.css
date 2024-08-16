@@ -1,14 +1,14 @@
 :root {
     /** colours **/
-    --yellow:           #FED766; 
+    --yellow: #FED766;
     --lt-seafoam-green: #ecf9f6;
-    --seafoam-green:    #43C6AC;
-    --md-blue:          #191654;
-    --dk-blue:          #0C0B2A;
-    --blue-grey:        #6B717E;
+    --seafoam-green: #43C6AC;
+    --md-blue: #191654;
+    --dk-blue: #0C0B2A;
+    --blue-grey: #6B717E;
 
     /** typography **/
-    --headings:'Monoton', cursive;
+    --headings: 'Monoton', cursive;
     --body: 'Rubik', sans-serif;
 }
 
@@ -20,3 +20,200 @@
     height: 0.1rem;
     visibility: hidden;
 }
+
+/** header **/
+header {
+    background-color: #ebf9f5;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: var(--body);
+}
+
+.navbar li {
+    margin-right: 30px;
+    margin-left: 30px;
+    text-transform: uppercase;
+
+}
+
+.navbar input {
+    margin-right: 30px;
+    border-color: var(--dk-blue);
+    border-radius: 10px;
+    padding-left: 15px;
+
+}
+
+header img {
+    width: 100px;
+    margin-left: 4rem;
+
+}
+
+
+
+
+
+/** main **/
+.hero-banner {
+    height: 668px;
+    background: linear-gradient(to right, var(--md-blue), var(--seafoam-green));
+}
+
+.hero-banner h1 {
+    font-family: var(--headings);
+    width: 660px;
+    font-size: 63px;
+    text-transform: uppercase;
+    color: var(--lt-seafoam-green);
+    padding-top: 161px;
+    margin-left: 5rem;
+    font-weight: 100;
+}
+
+.hero-p {
+    font-family: var(--body);
+    width: 599px;
+    font-size: 18px;
+    color: var(--lt-seafoam-green);
+    margin-left: 5rem;
+    font-weight: 100;
+}
+
+.hero-btn-1 {
+    background-color: var(--seafoam-green);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-top: 20px;
+    font-family: var(--body);
+    font-size: 21px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--md-blue);
+    width: 297px;
+    height: 58px;
+}
+
+.hero-btn-2 {
+    background-color: transparent;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5rem;
+    margin-top: 20px;
+    font-family: var(--body);
+    font-size: 21px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--seafoam-green);
+    border-color: var(--seafoam-green);
+    width: 297px;
+    height: 58px;
+}
+
+.btn-flex {
+    display: flex;
+}
+
+.content-1 {
+    height: 1130px;
+    background-color: #ffffff;
+}
+
+.content-1 h2 {
+    font-family: var(--headings);
+    font-size: 63px;
+    margin-top: 155px;
+    text-transform: uppercase;
+    color: var(--md-blue);
+    margin-left: 5rem;
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color: var(--seafoam-green);
+    text-underline-offset: 20px;
+
+}
+
+.content-1-p {
+    font-family: var(--body);
+    font-size: 18px;
+    color: var(--blue-grey);
+    margin-left: 5rem;
+    font-weight: 400;
+    width: 599px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.horizontal-scroll-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card h3 {
+    background-color: var(--md-blue);
+    color: var(--lt-seafoam-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--body);
+    height: 60px;
+
+}
+
+.card-alt h3 {
+    background-color: var(--seafoam-green);
+    color: var(--md-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: var(--body);
+    height: 60px;
+
+
+}
+
+.our-work-btn {
+    width: 375px;
+    height: 80px;
+    font-size: 21px;
+    color: var(--md-blue);
+    font-family: var(--body);
+    background-color: transparent;
+    border: solid;
+    border-radius: 3px;
+    border-color: var(--md-blue);
+    margin-left: 763px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+
+}
+
+.content-2 {}
+
+.what-we-do-btn {}
+
+.card-2 {}
+
+/** footer **/
